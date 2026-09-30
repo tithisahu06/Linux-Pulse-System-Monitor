@@ -1,4 +1,4 @@
-# Linux Pulse - Enterprise System Performance Monitoring Suite
+# Linux Pulse - Enterprise System Monitor
 ## Operating System Experiential Learning Case Study Project (CS-302)
 
 [![Platform: Linux](https://img.shields.io/badge/Platform-Linux%20%2F%20WSL-blue.svg)](https://www.kernel.org)
@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 **Linux Pulse** is a lightweight, real-time, non-invasive system performance monitoring suite engineered natively for Linux operating systems. Developed as an academic experiential learning case study, the application directly introspects the Linux Virtual Filesystem (`/proc` and `/sys`) to capture, calculate, correlate, and visualize performance telemetry across five critical OS subsystems:
 
 1. **CPU Utilization & Scheduling**: Multi-core percentage utilization, user/system/idle/iowait breakdown via `/proc/stat`, and run-queue load averages via `/proc/loadavg`.
@@ -20,7 +20,7 @@ The suite includes an **Intelligent Alert Engine**, an **Interactive ANSI CLI Da
 
 ---
 
-## 📁 Repository Directory Structure
+##  Repository Directory Structure
 
 ```
 OS CASE STUDY/
@@ -66,7 +66,7 @@ OS CASE STUDY/
 
 ---
 
-## 🚀 Quickstart & Execution Instructions
+##  Quickstart & Execution Instructions
 
 ### 1. Interactive Terminal ANSI Dashboard (CLI Mode)
 Launches the high-refresh terminal console with graphical ASCII gauge bars, multi-core metrics, storage/network tables, top process rankings, and live alerts:
@@ -80,7 +80,7 @@ Starts the embedded lightweight HTTP server and REST API:
 python src/main.py --mode web --port 8080
 ```
 Open your web browser and navigate to:
-👉 **`http://localhost:8080/`**
+ **`http://localhost:8080/`**
 - REST API endpoint: `http://localhost:8080/api/metrics`
 - Process API endpoint: `http://localhost:8080/api/processes`
 - Alerts API endpoint: `http://localhost:8080/api/alerts`
@@ -116,7 +116,7 @@ chmod +x src/scripts/stress_benchmark.sh
 
 ---
 
-## 📊 Formal Academic Report Details
+##  Formal Academic Report Details
 
 The primary deliverable for this experiential learning project is located in:
 📄 **`output/Linux_System_Performance_Monitoring_Report.docx`**
