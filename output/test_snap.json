@@ -1,0 +1,299 @@
+{
+  "timestamp": 1790779203.1309595,
+  "datetime": "2026-09-30 20:10:03",
+  "cpu": {
+    "overall": {
+      "total_pct": 0.0,
+      "user_pct": 0.0,
+      "system_pct": 7.14,
+      "idle_pct": 100.0,
+      "iowait_pct": 5.36,
+      "irq_pct": 0.0
+    },
+    "per_core": {
+      "cpu0": {
+        "total_pct": 8.89,
+        "user_pct": 11.11,
+        "system_pct": 0.0,
+        "idle_pct": 88.89,
+        "iowait_pct": 2.22,
+        "irq_pct": 0.0
+      },
+      "cpu1": {
+        "total_pct": 23.33,
+        "user_pct": 23.33,
+        "system_pct": 0.0,
+        "idle_pct": 74.44,
+        "iowait_pct": 2.22,
+        "irq_pct": 0.0
+      },
+      "cpu2": {
+        "total_pct": 0.0,
+        "user_pct": 0.0,
+        "system_pct": 3.33,
+        "idle_pct": 100.0,
+        "iowait_pct": 3.33,
+        "irq_pct": 0.0
+      },
+      "cpu3": {
+        "total_pct": 14.29,
+        "user_pct": 12.24,
+        "system_pct": 2.04,
+        "idle_pct": 87.76,
+        "iowait_pct": 0.0,
+        "irq_pct": 0.0
+      }
+    },
+    "load_avg": {
+      "load_1m": 0.87,
+      "load_5m": 0.57,
+      "load_15m": 1.35,
+      "running_entities": "2/342",
+      "last_pid": 12890
+    },
+    "cpu_info": {
+      "model_name": "Generic x86_64 Processor",
+      "cores": 4,
+      "mhz": 2400.0,
+      "architecture": "x86_64"
+    },
+    "timestamp": 1790779203.0727205
+  },
+  "memory": {
+    "total_mb": 16384.0,
+    "used_mb": 9695.3,
+    "free_mb": 2457.6,
+    "available_mb": 6688.7,
+    "cached_mb": 4587.52,
+    "buffers_mb": 819.2,
+    "dirty_mb": 6.13,
+    "used_pct": 59.18,
+    "available_pct": 40.82,
+    "swap": {
+      "total_mb": 8192.0,
+      "used_mb": 1228.8,
+      "free_mb": 6963.2,
+      "used_pct": 15.0
+    },
+    "paging": {
+      "pgpgin": 0,
+      "pgpgout": 0,
+      "pswpin": 0,
+      "pswpout": 0,
+      "pgfault": 0,
+      "pgmajfault": 0
+    }
+  },
+  "disk": {
+    "partitions": [
+      {
+        "device": "/dev/sda1",
+        "mountpoint": "/",
+        "fstype": "ext4",
+        "total_gb": 128.0,
+        "used_gb": 48.6,
+        "free_gb": 79.4,
+        "used_pct": 37.97,
+        "inodes_used_pct": 14.2
+      },
+      {
+        "device": "/dev/sdb1",
+        "mountpoint": "/data",
+        "fstype": "xfs",
+        "total_gb": 500.0,
+        "used_gb": 312.4,
+        "free_gb": 187.6,
+        "used_pct": 62.48,
+        "inodes_used_pct": 28.5
+      }
+    ],
+    "io_rates": {},
+    "timestamp": 1790779203.1309595
+  },
+  "network": {
+    "interfaces": {},
+    "aggregate_external": {
+      "rx_kb_s": 0.0,
+      "tx_kb_s": 0.0,
+      "rx_mbps": 0.0,
+      "tx_mbps": 0.0
+    },
+    "sockets": {
+      "ESTABLISHED": 41,
+      "TIME_WAIT": 17,
+      "LISTEN": 10,
+      "CLOSE_WAIT": 3,
+      "OTHER": 3,
+      "TOTAL_TCP": 55
+    },
+    "timestamp": 1790779203.1309595
+  },
+  "processes": [
+    {
+      "pid": 2190,
+      "ppid": 1,
+      "name": "python3",
+      "state": "Running",
+      "cpu_pct": 14.8,
+      "mem_pct": 1.29,
+      "rss_mb": 210.8,
+      "vms_mb": 527.0,
+      "threads": 4
+    },
+    {
+      "pid": 4210,
+      "ppid": 1,
+      "name": "node",
+      "state": "Running",
+      "cpu_pct": 9.1,
+      "mem_pct": 1.95,
+      "rss_mb": 320.0,
+      "vms_mb": 800.0,
+      "threads": 11
+    },
+    {
+      "pid": 3100,
+      "ppid": 1,
+      "name": "mysqld",
+      "state": "Sleeping",
+      "cpu_pct": 4.2,
+      "mem_pct": 3.73,
+      "rss_mb": 610.4,
+      "vms_mb": 1526.0,
+      "threads": 24
+    },
+    {
+      "pid": 1280,
+      "ppid": 1,
+      "name": "postgres",
+      "state": "Sleeping",
+      "cpu_pct": 3.5,
+      "mem_pct": 2.56,
+      "rss_mb": 420.1,
+      "vms_mb": 1050.2,
+      "threads": 8
+    },
+    {
+      "pid": 8920,
+      "ppid": 1,
+      "name": "prometheus",
+      "state": "Sleeping",
+      "cpu_pct": 2.4,
+      "mem_pct": 1.13,
+      "rss_mb": 185.0,
+      "vms_mb": 462.5,
+      "threads": 10
+    },
+    {
+      "pid": 1024,
+      "ppid": 1,
+      "name": "dockerd",
+      "state": "Sleeping",
+      "cpu_pct": 2.1,
+      "mem_pct": 0.87,
+      "rss_mb": 142.5,
+      "vms_mb": 356.2,
+      "threads": 18
+    },
+    {
+      "pid": 9340,
+      "ppid": 1,
+      "name": "grafana-server",
+      "state": "Sleeping",
+      "cpu_pct": 1.7,
+      "mem_pct": 0.71,
+      "rss_mb": 115.6,
+      "vms_mb": 289.0,
+      "threads": 7
+    },
+    {
+      "pid": 1420,
+      "ppid": 1,
+      "name": "nginx",
+      "state": "Sleeping",
+      "cpu_pct": 0.8,
+      "mem_pct": 0.28,
+      "rss_mb": 45.2,
+      "vms_mb": 113.0,
+      "threads": 4
+    },
+    {
+      "pid": 6011,
+      "ppid": 1,
+      "name": "redis-server",
+      "state": "Sleeping",
+      "cpu_pct": 0.8,
+      "mem_pct": 0.52,
+      "rss_mb": 85.3,
+      "vms_mb": 213.2,
+      "threads": 5
+    },
+    {
+      "pid": 7821,
+      "ppid": 1,
+      "name": "sysmon_agent",
+      "state": "Running",
+      "cpu_pct": 0.8,
+      "mem_pct": 0.15,
+      "rss_mb": 24.5,
+      "vms_mb": 61.2,
+      "threads": 3
+    },
+    {
+      "pid": 11420,
+      "ppid": 1,
+      "name": "journald",
+      "state": "Sleeping",
+      "cpu_pct": 0.4,
+      "mem_pct": 0.21,
+      "rss_mb": 34.0,
+      "vms_mb": 85.0,
+      "threads": 1
+    },
+    {
+      "pid": 1,
+      "ppid": 1,
+      "name": "systemd",
+      "state": "Sleeping",
+      "cpu_pct": 0.0,
+      "mem_pct": 0.17,
+      "rss_mb": 28.4,
+      "vms_mb": 71.0,
+      "threads": 1
+    },
+    {
+      "pid": 450,
+      "ppid": 1,
+      "name": "kswapd0",
+      "state": "Sleeping",
+      "cpu_pct": 0.0,
+      "mem_pct": 0.0,
+      "rss_mb": 0.0,
+      "vms_mb": 0.0,
+      "threads": 1
+    },
+    {
+      "pid": 5512,
+      "ppid": 1,
+      "name": "bash",
+      "state": "Sleeping",
+      "cpu_pct": 0.0,
+      "mem_pct": 0.07,
+      "rss_mb": 12.1,
+      "vms_mb": 30.2,
+      "threads": 1
+    },
+    {
+      "pid": 10120,
+      "ppid": 1,
+      "name": "sshd",
+      "state": "Sleeping",
+      "cpu_pct": 0.0,
+      "mem_pct": 0.06,
+      "rss_mb": 9.8,
+      "vms_mb": 24.5,
+      "threads": 1
+    }
+  ],
+  "alerts": []
+}

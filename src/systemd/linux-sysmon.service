@@ -1,0 +1,20 @@
+[Unit]
+Description=Linux Pulse - System Performance Telemetry Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/linux-sysmon
+ExecStart=/usr/bin/python3 /opt/linux-sysmon/src/main.py --mode daemon --interval 2 --log-file /var/log/sysmon.log
+Restart=always
+RestartSec=5s
+StandardOutput=journal
+StandardError=journal
+
+# Resource Sandboxing for Monitoring Daemon
+MemoryLimit=64M
+CPUQuota=5%
+
+[Install]
+WantedBy=multi-user.target
