@@ -1,5 +1,5 @@
-# Linux Pulse - Enterprise System Monitor
-## Operating System Experiential Learning Case Study Project (CS-302)
+# Linux Pulse System Monitor
+
 
 [![Platform: Linux](https://img.shields.io/badge/Platform-Linux%20%2F%20WSL-blue.svg)](https://www.kernel.org)
 [![Python: 3.8+](https://img.shields.io/badge/Python-3.8%2B-green.svg)](https://python.org)
